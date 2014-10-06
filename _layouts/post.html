@@ -4,7 +4,9 @@ layout: default
 
 <article class="post">
   {% for tag in page.tags %}
+      <div>
       <span class="tag-name"> &nbsp {{ tag }} &nbsp </span> &nbsp
+      </div>
   {% endfor %}
 
   <h1>{{ page.title }}</h1>
