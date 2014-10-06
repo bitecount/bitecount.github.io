@@ -18,7 +18,10 @@
 code {
   font-family: 'Courier', monospace;
   font-size: 14px;
-  color: $darkGray;
+  color: $darkGray;  
+}
+
+.code-block {
   border-radius: 5px;
   border: 1px solid $green;
 }
