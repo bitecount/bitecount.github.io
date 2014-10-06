@@ -3,6 +3,9 @@ layout: default
 ---
 
 <article class="post">
+  {% include syntax-hilite.html %}
+
+
   {% for tag in page.tags %}
       <span class="tag-name"> &nbsp {{ tag }} &nbsp </span> &nbsp
   {% endfor %}
