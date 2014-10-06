@@ -22,6 +22,8 @@ code {
 }
 
 .code-block {
+  word-break: break-all;
+  word-wrap: break-word;
   border-radius: 5px;
   padding: 8px;
   border: 1px solid $green;
