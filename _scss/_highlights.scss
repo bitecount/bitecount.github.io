@@ -17,14 +17,14 @@
  
 code {
   font-family: 'Courier', monospace;
-  font-size: 14px;
+  font-size: 18px;
   color: $darkerGray;
 }
 
 .code-block {
   border-radius: 5px;
   padding: 5px 10px;
-  border: 2px solid $darkGray;
+  border: 2px solid $gray;
   display: block;
   margin: 20px 0;
   overflow: auto;
@@ -32,11 +32,11 @@ code {
 
 .code-block::-webkit-scrollbar {
   width: 16px;
-  background-color: $gray;
+  background-color: $lightGray;
 }
 
 .code-block::-webkit-scrollbar-thumb {
-  backgroun-color: $green;
+  background-color: $green;
   border-radius: 10px;
 }
  
