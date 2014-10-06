@@ -24,10 +24,20 @@ code {
 .code-block {
   border-radius: 5px;
   padding: 5px 10px;
-  border: 2px solid $green;
+  border: 2px solid $darkGray;
   display: block;
   margin: 20px 0;
-  overflow:auto;
+  overflow: auto;
+}
+
+.code-block::-webkit-scrollbar {
+  width: 16px;
+  background-color: $gray;
+}
+
+.code-block::-webkit-scrollbar-thumb {
+  backgroun-color: $green;
+  border-radius: 10px;
 }
  
 // Solarized Light Pygments 
