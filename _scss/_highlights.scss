@@ -19,11 +19,11 @@ code {
   font-family: 'Courier', monospace;
   font-size: 14px;
   color: $darkGray;  
+  word-break: break-all;
+  word-wrap: break-word;
 }
 
 .code-block {
-  word-break: break-all;
-  word-wrap: break-word;
   border-radius: 5px;
   padding: 8px;
   border: 1px solid $green;
